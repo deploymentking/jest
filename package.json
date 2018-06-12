@@ -1,0 +1,27 @@
+{
+  "name": "jest-test-suite",
+  "version": "1.0.0",
+  "author": "Lee Myring <mail@thinkstack.io>",
+  "description": "Very simple Jest setup",
+  "main": "src/add.js",
+  "dependencies": {
+    "jest": "^23.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deploymentking/jest.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deploymentking/jest/issues"
+  },
+  "homepage": "https://github.com/deploymentking/jest#readme",
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
+  }
+}
